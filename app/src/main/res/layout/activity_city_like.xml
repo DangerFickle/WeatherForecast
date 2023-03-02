@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/likes_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/likes_bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/city_like_tag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="5dp"
+        android:text="还没有收藏城市呢！"/>
+
+    <ListView
+        android:id="@+id/weather_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:dividerHeight="15dp"
+
+        android:divider="#00FF"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp">
+    </ListView>
+
+
+
+
+
+</LinearLayout>
